@@ -20,8 +20,8 @@ PamakBook is a small social media platform developed for the course of Object or
   
   # Group
   * protected String name;
-	* protected String description;
-	* protected ArrayList<User> enrolledUsers;
+  * protected String description;
+  * protected ArrayList<User> enrolledUsers;
   a user can be enrolled in this group
   
   # ClosedGroup extends Group
@@ -30,11 +30,11 @@ PamakBook is a small social media platform developed for the course of Object or
   
   # Post 
   * private Date timestamp;
-	* private String postText;
-	* private User user;
+  * private String postText;
+  * private User user;
   
   # DB
-  the doesnt user a database. for the simplicity of things the state is stored in a binary file 
+  the app doesnt user a database. for the simplicity of things the state is stored in a binary file 
   
   # GUI
   the gui is as simple as it gets made with java swing
