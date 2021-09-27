@@ -10,7 +10,7 @@ PamakBook is a small social media platform developed for the course of Object or
 
 # User
 * private String name;
-* private String email (email needs to be from the University Of Macedonia patterns);
+* private String email (email needs to be from the University Of Macedonia pattern (ics or iis or dai && (3-5) numbers) && @ && uom.edu.gr)
 * private ArrayList<User> friends;
 * private ArrayList<Group> groups;
 * private ArrayList<Post> posts;
